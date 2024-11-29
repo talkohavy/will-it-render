@@ -1,5 +1,6 @@
 {
-  "name": "vite-react-tailwind-eslint-template",
+  "name": "will-it-render",
+  "description": "Explore different scenarios and ask 'will it render?'",
   "private": true,
   "version": "0.0.0",
   "type": "module",

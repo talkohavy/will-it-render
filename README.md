@@ -1,5 +1,5 @@
-# Vite + React + Tailwind + Eslint + Prettier (for json) + Biome + React router
+# Will it render?
 
-This template provides a minimal setup to get React working in Vite with HMR and my custom ESLint rules (using ezlint).
+This project explores all kinds of situations, and asks "will it render?".
 
-Vite config uses the SWC plugin for fast refreshes.
+The goal here is to learn when & why something gets rendered.

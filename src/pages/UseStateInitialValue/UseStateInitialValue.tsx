@@ -15,7 +15,7 @@ import { useLocation, useNavigate } from 'react-router';
  * What would happen after the click of the button? (answer below)
  *
  */
-export default function HomePage() {
+export default function UseStateInitialValue() {
   const navigateTo = useNavigate();
 
   const { state } = useLocation();

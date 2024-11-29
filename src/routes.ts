@@ -1,14 +1,14 @@
 import { lazy } from 'react';
 
-const HomePage = lazy(() => import('./pages/Home'));
+const UseStateInitialValue = lazy(() => import('./pages/UseStateInitialValue'));
 const ReduxExamplePage = lazy(() => import('./pages/ReduxExample'));
 
 export const routes = [
   {
     to: '/',
-    text: 'Home',
+    text: 'useState initial value',
     activeNames: ['/home', '/'],
-    Component: HomePage,
+    Component: UseStateInitialValue,
   },
   {
     to: '/redux',

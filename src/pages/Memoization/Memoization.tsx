@@ -4,11 +4,13 @@ import Example1 from './Examples/Example1';
 import Example2 from './Examples/Example2';
 import Example3 from './Examples/Example3';
 import type { RadioOption } from '@src/components/controls/RadioGroup/types';
+import Example4 from './Examples/Example4';
 
 const exampleTabs: Array<RadioOption<() => ReactNode>> = [
   { value: 0, label: 'Example 1', item: Example1 },
   { value: 1, label: 'Example 2', item: Example2 },
   { value: 2, label: 'Example 3', item: Example3 },
+  { value: 3, label: 'Example 4', item: Example4 },
 ];
 
 export default function Memoization() {

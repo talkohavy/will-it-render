@@ -32,7 +32,7 @@ export default function UseStateInitialValue() {
         <Button onClick={() => navigateTo('/', { state: { value: Math.random() } })}>Change state.value</Button>
       </div>
 
-      <div className='mt-20 text-white'>value is: {value.value}</div>
+      <div className='mt-20'>value is: {value.value}</div>
     </div>
   );
 }

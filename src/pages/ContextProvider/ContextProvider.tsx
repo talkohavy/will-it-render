@@ -60,7 +60,7 @@ function Child() {
   }, [setIsOpen]);
 
   return (
-    <div className='flex flex-col gap-4 bg-slate-700 border rounded-lg text-white p-4'>
+    <div className='flex flex-col gap-4 bg-slate-700 border rounded-lg p-4'>
       <div>hello from child</div>
 
       <Button onClick={() => setIsOpen((isOpen: boolean) => !isOpen)}>click</Button>

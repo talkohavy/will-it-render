@@ -1,6 +1,7 @@
 import { lazy } from 'react';
 
 const UseStateInitialValue = lazy(() => import('./pages/UseStateInitialValue'));
+const UseStateSetFunction = lazy(() => import('./pages/UseStateSetFunction'));
 const ResetStateWithKeyPage = lazy(() => import('./pages/ResetStateWithKey'));
 const ContextProvider = lazy(() => import('./pages/ContextProvider'));
 const Memoization = lazy(() => import('./pages/Memoization'));
@@ -11,6 +12,12 @@ export const routes = [
     text: 'useState initial value',
     activeNames: ['/home', '/'],
     Component: UseStateInitialValue,
+  },
+  {
+    to: '/use-state-set-function',
+    text: 'useState set function',
+    activeNames: ['/use-state-set-function'],
+    Component: UseStateSetFunction,
   },
   {
     to: '/reset-state-with-key',

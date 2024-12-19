@@ -5,6 +5,7 @@ const UseStateSetFunction = lazy(() => import('./pages/UseStateSetFunction'));
 const ResetStateWithKeyPage = lazy(() => import('./pages/ResetStateWithKey'));
 const ContextProvider = lazy(() => import('./pages/ContextProvider'));
 const Memoization = lazy(() => import('./pages/Memoization'));
+const ArrayWithoutKeys = lazy(() => import('./pages/ArrayWithoutKeys'));
 
 export const routes = [
   {
@@ -36,5 +37,11 @@ export const routes = [
     text: 'Memoization',
     activeNames: ['/memoization'],
     Component: Memoization,
+  },
+  {
+    to: '/array-without-keys',
+    text: 'Array without keys',
+    activeNames: ['/array-without-keys'],
+    Component: ArrayWithoutKeys,
   },
 ];

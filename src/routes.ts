@@ -6,6 +6,7 @@ const ResetStateWithKeyPage = lazy(() => import('./pages/ResetStateWithKey'));
 const ContextProvider = lazy(() => import('./pages/ContextProvider'));
 const Memoization = lazy(() => import('./pages/Memoization'));
 const ArrayWithoutKeys = lazy(() => import('./pages/ArrayWithoutKeys'));
+const InertVsPointerEventsNone = lazy(() => import('./pages/InertVsPointerEventsNone'));
 
 export const routes = [
   {
@@ -43,5 +44,11 @@ export const routes = [
     text: 'Array without keys',
     activeNames: ['/array-without-keys'],
     Component: ArrayWithoutKeys,
+  },
+  {
+    to: '/inert',
+    text: 'inert v.s. pointer-events-none',
+    activeNames: ['/inert'],
+    Component: InertVsPointerEventsNone,
   },
 ];

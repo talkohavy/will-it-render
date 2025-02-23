@@ -7,6 +7,7 @@ const ContextProvider = lazy(() => import('./pages/ContextProvider'));
 const Memoization = lazy(() => import('./pages/Memoization'));
 const ArrayWithoutKeys = lazy(() => import('./pages/ArrayWithoutKeys'));
 const InertVsPointerEventsNone = lazy(() => import('./pages/InertVsPointerEventsNone'));
+const ErrorBoundaryQuiz = lazy(() => import('./pages/ErrorBoundaryQuiz'));
 
 export const routes = [
   {
@@ -50,5 +51,11 @@ export const routes = [
     text: 'inert v.s. pointer-events-none',
     activeNames: ['/inert'],
     Component: InertVsPointerEventsNone,
+  },
+  {
+    to: '/error-boundary-quiz',
+    text: 'Error Boundary Quiz',
+    activeNames: ['/error-boundary-quiz'],
+    Component: ErrorBoundaryQuiz,
   },
 ];

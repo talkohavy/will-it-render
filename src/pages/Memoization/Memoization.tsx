@@ -1,9 +1,9 @@
 import { type ReactNode, useState } from 'react';
+import type { RadioOption } from '@src/components/controls/RadioGroup/types';
 import RadioTabs from '@src/components/controls/RadioGroup/RadioTabs';
 import Example1 from './Examples/Example1';
 import Example2 from './Examples/Example2';
 import Example3 from './Examples/Example3';
-import type { RadioOption } from '@src/components/controls/RadioGroup/types';
 import Example4 from './Examples/Example4';
 
 const exampleTabs: Array<RadioOption<() => ReactNode>> = [

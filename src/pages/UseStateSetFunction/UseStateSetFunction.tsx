@@ -1,5 +1,5 @@
-import Button from '@src/components/controls/Button';
 import { useState } from 'react';
+import Button from '@src/components/controls/Button';
 import { firstButtonCode, secondButtonCode } from './constants';
 
 export default function UseStateSetFunction() {

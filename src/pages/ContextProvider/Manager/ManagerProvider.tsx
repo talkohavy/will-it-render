@@ -1,6 +1,6 @@
-import { PropsWithChildren, useMemo, useState } from 'react';
-import { ManagerContext } from './ManagerContext';
+import { type PropsWithChildren, useMemo, useState } from 'react';
 import Button from '@src/components/controls/Button';
+import { ManagerContext } from './ManagerContext';
 
 type ManagerProviderProps = PropsWithChildren;
 

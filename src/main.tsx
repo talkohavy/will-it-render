@@ -1,9 +1,9 @@
 import { StrictMode } from 'react';
-import axios from 'axios';
 import { createRoot } from 'react-dom/client';
 import { Provider as StoreProvider } from 'react-redux';
 import { BrowserRouter } from 'react-router';
 import App from '@src/App';
+import axios from 'axios';
 import SuspenseUntilReady from './components/SuspenseUntilReady';
 import { initDAL } from './DAL';
 import DarkThemeProvider from './providers/DarkThemeProvider';

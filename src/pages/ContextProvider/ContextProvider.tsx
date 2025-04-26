@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import ManagerProvider from './Manager/ManagerProvider';
-import { useManagerContext } from './Manager/ManagerContext';
 import Button from '@src/components/controls/Button';
+import { useManagerContext } from './Manager/ManagerContext';
+import ManagerProvider from './Manager/ManagerProvider';
 
 /**
  * The setup:

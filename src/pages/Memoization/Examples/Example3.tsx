@@ -1,5 +1,5 @@
-import Button from '@src/components/controls/Button';
 import { memo, useEffect, useState } from 'react';
+import Button from '@src/components/controls/Button';
 
 export default function Example3() {
   const [timeState, setTimeState] = useState({ startDate: 123, endDate: 456 });

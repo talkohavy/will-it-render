@@ -1,6 +1,6 @@
+import { memo, useEffect, useState } from 'react';
 import Button from '@src/components/controls/Button';
 import Input from '@src/components/controls/Input';
-import { memo, useEffect, useState } from 'react';
 
 export default function Example2() {
   const [age, setAge] = useState(24);

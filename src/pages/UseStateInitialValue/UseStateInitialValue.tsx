@@ -1,6 +1,6 @@
-import Button from '@src/components/controls/Button';
 import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router';
+import Button from '@src/components/controls/Button';
 
 /**
  * The setup:

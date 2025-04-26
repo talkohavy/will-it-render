@@ -1,5 +1,5 @@
-import Button from '@src/components/controls/Button';
 import { useEffect, useState } from 'react';
+import Button from '@src/components/controls/Button';
 /**
  * The setup:
  *

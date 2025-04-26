@@ -8,6 +8,7 @@ const Memoization = lazy(() => import('./pages/Memoization'));
 const ArrayWithoutKeys = lazy(() => import('./pages/ArrayWithoutKeys'));
 const InertVsPointerEventsNone = lazy(() => import('./pages/InertVsPointerEventsNone'));
 const ErrorBoundaryQuiz = lazy(() => import('./pages/ErrorBoundaryQuiz'));
+const ErrorInAPromisePage = lazy(() => import('./pages/ErrorInAPromisePage'));
 
 export const routes = [
   {
@@ -57,5 +58,11 @@ export const routes = [
     text: 'Error Boundary Quiz',
     activeNames: ['/error-boundary-quiz'],
     Component: ErrorBoundaryQuiz,
+  },
+  {
+    to: '/error-in-a-promise',
+    text: 'Error in a Promise',
+    activeNames: ['/error-in-a-promise'],
+    Component: ErrorInAPromisePage,
   },
 ];

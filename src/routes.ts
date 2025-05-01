@@ -9,6 +9,7 @@ const ArrayWithoutKeys = lazy(() => import('./pages/ArrayWithoutKeys'));
 const InertVsPointerEventsNone = lazy(() => import('./pages/InertVsPointerEventsNone'));
 const ErrorBoundaryQuiz = lazy(() => import('./pages/ErrorBoundaryQuiz'));
 const ErrorInAPromisePage = lazy(() => import('./pages/ErrorInAPromisePage'));
+const CustomErrorPage = lazy(() => import('./pages/CustomErrorPage'));
 
 export const routes = [
   {
@@ -64,5 +65,11 @@ export const routes = [
     text: 'Error in a Promise',
     activeNames: ['/error-in-a-promise'],
     Component: ErrorInAPromisePage,
+  },
+  {
+    to: '/custom-error-page',
+    text: 'Custom Error Page',
+    activeNames: ['/custom-error-page'],
+    Component: CustomErrorPage,
   },
 ];
